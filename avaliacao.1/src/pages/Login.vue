@@ -50,6 +50,8 @@ const erro = ref(false)
 const router = useRouter()
 
 // Função para simular o login
+//Login: admin
+//Senha: admin
 function logar() {
   if (usuario.value === 'admin' && senha.value === 'admin') {
     // Login bem-sucedido
